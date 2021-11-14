@@ -1,0 +1,110 @@
+
+.logo{
+    background-color: silver;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#loadingGif{
+    margin-left: 520px;
+}
+#nameInput{
+    justify-content: center;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+    justify-content: space-around;
+}
+#sort{
+    text-align: center;
+}
+#sort button{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.moviesInfo{
+    
+    width: 33%;
+    height: 450px;
+    border: solid  black;
+    border-radius: 15px ;
+    text-align: center;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+}
+.moviesInfo:hover{
+    border: solid  orange;
+    border-radius: 40px;
+}
+.moviesInfo button{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+}
+.moviesInfo button:hover{
+    background-color: orange;
+}
+.moviesInfo img{
+    border: solid;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-top: 3px;
+}
+footer {
+    background-color: rgb(167, 167, 167) ;
+    bottom: 0%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+  }
+  footer .socialMediaContact > a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgb(0, 0, 0);
+    margin: 0 8px;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+  
+  footer .socialMediaContact > a:hover {
+    opacity: 2;
+  }
+  .footerText {
+    font-size: 200%;
+    color: rgb(0, 0, 0);
+    font-family: "Courier New", Courier, monospace;
+  }
+
+
+
+
+  
