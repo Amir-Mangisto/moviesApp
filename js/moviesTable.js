@@ -1,4 +1,4 @@
-let api = "http://moviesmern.herokuapp.com/movies/all";
+let api = "https://moviesmern.herokuapp.com/movies/all";
 const moviesTable = document.getElementById("moviesTable");
 async function getAllMovies() {
   try {
