@@ -1,4 +1,4 @@
-let api="http://moviesmern.herokuapp.com/movies/all";
+let api="https://moviesmern.herokuapp.com/movies/all";
 let container=document.getElementById("container")
 let loadingGif=document.getElementById("loadingGif")
 
@@ -49,7 +49,7 @@ async function deleteMovieById(id) {
     }
     try {
         showLoadingGif()
-        return await fetch(`http://moviesmern.herokuapp.com/movies/movie/${id}`,options)
+        return await fetch(`https://moviesmern.herokuapp.com/movies/movie/${id}`,options)
         .then(response => response.json())
     } catch (error) {
         return error
@@ -125,7 +125,7 @@ sortBtn.onclick= ()=>{
 async function searchMovieByInputName(movieName) {
     try {
         showLoadingGif()
-        return await fetch(`http://moviesmern.herokuapp.com/movies/movie/searchByName/${movieName}`)
+        return await fetch(`https://moviesmern.herokuapp.com/movies/movie/searchByName/${movieName}`)
         .then(response => response.json())
         .then(response => response.data)
     } catch (error) {
