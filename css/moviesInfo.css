@@ -32,6 +32,22 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+#learnMoreBtn{
+    display: none;
+    width: 650px;
+    height: 66vh;
+    z-index: 50;
+    /* position: absolute; */
+    background-color: black;
+    color: white;
+    margin-left: 25%;
+    position: fixed;
+    border-radius: 15px;
+    font-size: 20px;
+}
+#exitInfo{
+    cursor: pointer;
+}
 .moviesInfo{
     
     width: 33%;

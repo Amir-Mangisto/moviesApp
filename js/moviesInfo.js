@@ -32,7 +32,7 @@ getMovies()
         <p>Name: ${movie.movieName}</p> 
         <p>Rating: ${movie.rating}</p>
         <button type="button" onclick="deleteMovieById('${movie._id}')">DELETE</button>
-        <button type="button">LEARN MORE</button>
+        <button type="button" onclick="moreMovieInfo('${details}')">LEARN MORE</button>
         </div>
         `
     }
@@ -57,6 +57,14 @@ async function deleteMovieById(id) {
     finally{
         hideLoadingGif()
     }
+}
+const details=document.getElementById("learnMoreBtn")
+const exitInfo=document.getElementById("exitInfo");
+exitInfo.onclick=()=>{
+    details.style.display ="none";
+}
+ function moreMovieInfo() {
+    details.style.display ="block";
 }
 
 function sortByRating(info) {
