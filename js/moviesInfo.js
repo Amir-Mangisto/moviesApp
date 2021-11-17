@@ -12,7 +12,7 @@ function hideLoadingGif() {
 async function getMovies() {
     try {
         showLoadingGif()
-        return await fetch(api)
+        return await fetch("https://moviesmern.herokuapp.com/movies/all")
         .then(response => response.json())
         .then(response => response.data)
     } catch (error) {
